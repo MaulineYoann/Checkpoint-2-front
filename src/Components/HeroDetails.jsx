@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom'
 
 function HeroDetails(props) {
 
-    const [height, setHeight] = useState();
+    const [height, setHeight] = useState("");
     const herosId = props.match.params.id;
 
     useEffect(() => {
         axios
-        .get(`https://a.nacapi.com/Hero${herosId}`)
+        .get(`https://a.nacapi.com/Hero/${herosId}`)
         .then((res) => {
             setHeight(res.data.height)
         })

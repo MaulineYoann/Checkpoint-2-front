@@ -9,7 +9,7 @@ function HeroList() {
     const [weak, setWeak] = useState(false)
     useEffect(() => {
         axios
-        .get('https://lit-badlands-40023.herokuapp.com/heros')
+        .get('https://a.nacapi.com/Hero')
         .then((res) => res.data)
         .then((data) => setHeros(data))
     }, [])
