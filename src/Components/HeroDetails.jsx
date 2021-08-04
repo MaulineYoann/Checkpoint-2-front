@@ -17,7 +17,7 @@ function HeroDetails(props) {
     }, [herosId])
     return (
         <div className="HeroDetails">
-            <div>Taille du héro : {height}</div>
+            <div>Taille du héro :{height}</div>
             <Link to={{pathname: '/'}}>Page d'Acceuil'</Link>
         </div>
     )
