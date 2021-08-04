@@ -1,0 +1,24 @@
+
+h1 {
+    padding: 30px;
+}
+.Heros {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.btn-filterOff {
+    padding: 8px;
+    font-size: 1.3rem;
+    
+    border-radius: 10px;
+    background-color: #9c0807;
+    color: #fff;
+}
+.btn-filter {
+
+    border-radius: 10px;
+    background-color: #80b918;
+    padding: 8px;
+    font-size: 1.3rem;
+}
